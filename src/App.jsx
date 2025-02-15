@@ -85,8 +85,8 @@ const App = () => {
     <Router>
       <Header />
       <Routes>
-        <Route path="/home" element={<Home />} />
-        <Route path="/add" element={<AddUser />} />
+        <Route path="/learnReact/home" element={<Home />} />
+        <Route path="/learnReact/add" element={<AddUser />} />
       </Routes>
     </Router>
   );
