@@ -85,7 +85,7 @@ const App = () => {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/add" element={<AddUser />} />
       </Routes>
     </Router>
