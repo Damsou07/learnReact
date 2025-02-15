@@ -7,7 +7,7 @@ const Header = () => {
     <header style={{ backgroundColor: "#282c34", padding: "10px", color: "white", textAlign: "center" }}>
       <h1>Gestion des utilisateurs</h1>
       <nav>
-        <Link to="/">Accueil</Link> | <Link to="/add">Ajouter</Link>
+        <Link to="/learnReact/home">Accueil</Link> | <Link to="/learnReact/add">Ajouter</Link>
       </nav>
     </header>
   );
